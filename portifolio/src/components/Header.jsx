@@ -1,8 +1,8 @@
 export function Header() {
   return (
     <header className="header">
+      <h1>Menu</h1>
       <div className="header-content">
-        <h1>Menu</h1>
         <nav>
           <ul>
             <li><a href="#about">Sobre</a></li>

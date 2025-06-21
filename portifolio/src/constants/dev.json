@@ -3,81 +3,58 @@
         "Nome": "Gabriel Henrique de Matos Sena",
         "Idade": 19,
         "Data de Nascimento": "2006-02-17",
-        "Formação": [
-            {
-                "Curso Tec.": "Técnico em Densenvolvimento de Sistemas",
-                "Instituição": "SENAI - Celso Charuri",
-                "Ano de Conclusão": 2024
-            },
-            {
-                "Curso Graduação": "Engenharia de Software",
-                "Instituição": "UniSenaiPR - Campus da Indústria",
-                "Ano de Conclusão": 2029
-            }
+        "CursoTec": [
+            "Técnico em Densenvolvimento de Sistemas ",
+            "SENAI - Celso Charuri ",
+            "Ano de Conclusão: 2024" 
+        ],    
+        "CursoGraduação": [
+            "Engenharia de Software ",
+            "UniSenaiPR - Campus da Indústria ",
+            "Ano de Conclusão: 2029"
+        ], 
+        "CursoExtra": [
+                "Excel - Básico Ao Intermediário ",
+                "Instituição: SENAI - Celso Charuri ",
+                "Ano de Conclusão: 2025"
         ],
-        "Curso Extra": [
-            {
-                "Curso": "Excel - Básico Ao Intermediário",
-                "Instituição": "SENAI - Celso Charuri",
-                "Ano de Conclusão": 2025
-            },
-            {
-                "Curso": "Programação em Python ",
-                "Instituição": "SENAI - Celso Charuri",
-                "Ano de Conclusão": 2025
-            }
+        "CursoExtra2": [
+                "Programação em Python ",
+                "Instituição: SENAI - Celso Charuri ",
+                "Ano de Conclusão: 2025"
         ],
-        "Localização": [
-            {
-                "Cidade": "Colombo",
-                "Estado": "Paraná",
-                "País": "Brasil",
-                "CEP": "83409-417",
-                "Bairro": "Guarani",
-                "Rua": "Maria Lisboa Schroeder - 179"
-            }
-        ],
+        
         "Linguagens": [
-            "python",
-            "JavaScript",
-            "React",
-            "Node.js",
-            "HTML",
+            "Python, ",
+            "JavaScript, ",
+            "React, ",
+            "Node.js, ",
+            "HTML, ",
             "CSS"
         ],
-        "Contato": {
-            "Telefone": "(41) 9 9999-9999",
-            "Email": "gabrielhmsena20@gmail.com",
-            "Github": "NeoPato",
-            "LinkedIn": "gabriel-henrique-de-matos-sena-123456789"
-        },
-        "Descrição": "Sou estudante de Engenharia de Software, com facilidade para trabalho em equipe, boa comunicação e empatia. Estou em constante busca por aprendizado e aprimoramento das minhas habilidades.",
+        
+        "Telefone": "(41) 9 9999-9999",
+        "Gmail": "gabrielhmsena20@gmail.com",
+        "GitHub": "NeoPato",
+        "LinkedIn": "gabriel-henrique-de-matos-sena-123456789",
         "imagem": "...",
-        "Projeto":[
-            {
-                "Nome": "Snake Game",
-                "Descrição": "Um jogo clássico de cobra desenvolvido em Python.",
-                "Tecnologias": ["Python", "Pygame"],
-                "Link": "..."
-            },
-            {
-                "Nome": "Calculadora Simples",
-                "Descrição": "Uma calculadora simples desenvolvida com HTML, CSS e JavaScript.",
-                "Tecnologias": ["Python"],
-                "Link": "..."
-            },
-            {
-                "Nome": "Projeto Final de Conclusão do Curso Técnico",
-                "Descrição": "Um projeto de estudo desenvolvido com React e Node.js.",
-                "Tecnologias": ["React", "Html", "CSS", "JavaScript", "Node.js", "Prisma"],
-                "Link": "projeto-baga-o-malte.vercel.app"
-            },
-            {
-                "Nome": "Jornada UniSenai - 1 Primeiro Semestre",
-                "Descrição": "Um projeto de estudo desenvolvido com React",
-                "Tecnologias": ["React", "Html", "CSS", "JavaScript"],
-                "Link": "projeto-baga-o-malte.vercel.app"
-            }
+        "Projeto": [
+            "Snake Game",
+            "Um jogo clássico de cobra desenvolvido em Python.",
+            ["Python", "Pygame"],
+            "..."
+        ],
+        "Projeto2": [
+            "Calculadora Simples",
+            "Uma calculadora simples desenvolvida com HTML, CSS e JavaScript.",
+            ["Python"],
+            "..."
+        ],
+        "Projeto3": [
+            "Projeto Final de Conclusão do Curso Técnico",
+            "Um projeto de estudo desenvolvido com React e Node.js.",
+            ["React", "Html", "CSS", "JavaScript", "Node.js", "Prisma"],
+            "projeto-baga-o-malte.vercel.app"
         ]
 
     }
