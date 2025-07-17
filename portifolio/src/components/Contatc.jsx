@@ -7,7 +7,7 @@ export function Contatc() {
         <form>
           {Dev.map((img, index) => (
           <div className="image" key={index}>
-              <img src={img.imagem} alt="Profile" />
+              <img src="/ft_sobre.webp" alt="Profile" />
           </div>
           ))}
           {Dev.map((text, index) => (
