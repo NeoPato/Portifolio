@@ -1,61 +1,41 @@
 [
     {
-        "Nome": "Gabriel Henrique de Matos Sena",
-        "Idade": 19,
-        "Data de Nascimento": "2006-02-17",
-        "CursoTec": [
-            "Técnico em Densenvolvimento de Sistemas ",
-            "SENAI - Celso Charuri ",
-            "Ano de Conclusão: 2024" 
-        ],    
         "CursoGraduação": [
             "Engenharia de Software ",
-            "UniSenaiPR - Campus da Indústria ",
-            "Ano de Conclusão: 2029"
-        ], 
+            "UniSenaiPR - Campus da Indústria "
+        
+        ],
+        "CursoTec": [
+            "Técnico em Densenvolvimento de Sistemas ",
+            "SENAI - Celso Charuri "
+            
+        ],     
         "CursoExtra": [
-                "Excel - Básico Ao Intermediário ",
-                "Instituição: SENAI - Celso Charuri ",
-                "Ano de Conclusão: 2025"
+                "Excel - Básico Ao Intermediário "
+                
         ],
         "CursoExtra2": [
-                "Programação em Python ",
-                "Instituição: SENAI - Celso Charuri ",
-                "Ano de Conclusão: 2025"
+                "Programação em Python "
         ],
-        
-        "Linguagens": [
-            "Python, ",
-            "JavaScript, ",
-            "React, ",
-            "Node.js, ",
-            "HTML, ",
-            "CSS"
+        "CursoExtra3": [
+                "Densenvolvimento Web Front-End "
         ],
         
         "Telefone": "(41) 9 9999-9999",
         "Gmail": "gabrielhmsena20@gmail.com",
         "GitHub": "NeoPato",
         "LinkedIn": "gabriel-henrique-de-matos-sena-123456789",
-        "imagem": "...",
         "Projeto": [
-            "Snake Game",
-            "Um jogo clássico de cobra desenvolvido em Python.",
-            ["Python", "Pygame"],
+            "Campo Minado",
+            " Um jogo clássico desenvolvido em Python. - ",
+            ["( Python,", " Pygame)"],
             "..."
         ],
         "Projeto2": [
-            "Calculadora Simples",
-            "Uma calculadora simples desenvolvida com HTML, CSS e JavaScript.",
-            ["Python"],
-            "..."
+            "Projeto Final de Conclusão do Curso Técnico. - ",
+            ["( React,", " Html,", " CSS,", " JavaScript,", " Node.js,", " Prisma)"]
         ],
-        "Projeto3": [
-            "Projeto Final de Conclusão do Curso Técnico",
-            "Um projeto de estudo desenvolvido com React e Node.js.",
-            ["React", "Html", "CSS", "JavaScript", "Node.js", "Prisma"],
-            "projeto-baga-o-malte.vercel.app"
-        ]
-
+        "urlProjeto2": "https://...",
+        "urlProjeto1": "https://..."
     }
 ]

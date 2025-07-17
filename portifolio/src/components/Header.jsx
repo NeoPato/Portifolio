@@ -1,17 +1,25 @@
+
 export function Header() {
+
   return (
-    <header className="header">
-      <h1>Menu</h1>
-      <div className="header-content">
-        <nav>
-          <ul>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#ability">Habilidades</a></li>
-            <li><a href="#projects">Projetos</a></li>
-            <li><a href="#contact">Contato</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <>
+      <header className="header">
+        <div className="header-content">
+          <nav>
+            <ul>
+              <li><a href="#contact">Sobre</a></li>
+              <li><a href="#skills">Habilidades</a></li>
+              <li><a href="#projects">Projetos</a></li>
+              <div className="header-button">
+                <img src="/whatsapp.png" alt="zapzapIcone" />
+                <a href="https://wa.me/+554184666011?text=Olá,%20gostaria%20de%20mais%20informações" target="_blank">
+                  <b><button>Contato</button></b>
+                </a>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </>
   );
 }

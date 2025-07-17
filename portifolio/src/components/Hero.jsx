@@ -1,9 +1,10 @@
+import { Contatc } from "./Contatc"
+
 export function Hero() {
   return (
     <section>
       <div className="hero">
         <div className="hero-content">
-          <h1>Bem-Vindo ao meu Portfólio</h1>
           <p>Meu Nome é Gabriel Sena</p>
           <p>
             Sou estudante de Engenharia de Software, com facilidade para trabalho em equipe, 
@@ -14,7 +15,6 @@ export function Hero() {
             Tive contato com alguns projetos, onde pude desenvolver noções em 
             programação e resolução de problemas. Estou aberto a aprender com novas experiências.
           </p>
-          <button>Veja mais informações</button>
         </div>
       </div>
     </section>
