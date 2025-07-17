@@ -1,4 +1,4 @@
-import Dev from 'git ./constants/Dev.json';
+import Dev from '../constants/Dev.json';
 
 export function Contatc() {
   return (
