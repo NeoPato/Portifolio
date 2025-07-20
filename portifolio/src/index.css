@@ -116,7 +116,6 @@ section {
   border-radius: 10cap;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 .contact h2{
   font-size: 2em;
@@ -222,14 +221,17 @@ section {
   transition: transform 0.3s ease;
   display: flex;
 }
+.card-list:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
 
+}
 
 /* Rodapé */
 .footer p, a{
   color:white;
   padding-left: 5px;
 }
-
 
 @media (max-width: 768px) {
   .header-content nav ul {
