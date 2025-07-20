@@ -191,9 +191,9 @@ section {
 .group-linguagens {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;   /* Centraliza horizontalmente */
-  align-items: center;       /* Centraliza verticalmente */
-  gap: 40px;                 /* Espaço entre os ícones */
+  justify-content: center;  
+  align-items: center;       
+  gap: 40px;                 
   width: 100%;
   margin: 0 auto;
   padding: 20px 0;
@@ -205,7 +205,7 @@ section {
   align-items: center;
   text-align: center;
   gap: 10px;
-  min-width: 80px;           /* Largura mínima para cada ícone */
+  min-width: 80px;           
 }
 .card-list{
   align-items: center;
@@ -228,4 +228,36 @@ section {
 .footer p, a{
   color:white;
   padding-left: 5px;
+}
+
+
+@media (max-width: 768px) {
+  .header-content nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact {
+    flex-direction: column;
+    padding: 20px;
+    
+  }
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .image img {
+  max-height: 300px;
+  max-width: 300px;
+  width: 100vw;
+  height: 100vh;
+  }
+  .card-list {
+    width: 300px;
+    max-width: 80vw;
+    padding: 20px;
+  }
 }

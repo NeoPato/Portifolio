@@ -18,7 +18,7 @@ export function Contatc() {
               </p>
             </div>
             <div className='card-education'>
-              <ul>
+              <ul style={{ color:"white", padding: 0 }}>
                 <li><p>{text.CursoGraduação}</p></li>
                 <li><p>{text.CursoTec}</p></li>
                 <li><p>{text.CursoExtra}</p></li>
