@@ -14,7 +14,7 @@ export function Contatc() {
             <div className="card-identity">
               <h2>Sobre Mim</h2>
               <p>
-                Meu nome é Gabriel Sena, sou estudante de Engenharia de Software no UniSenai, e <br />técnico em Desenvolvimento de Sistemas. Adquiri muitos conhecimentos na área do front-end, mas <br />também tendo um conhecimento em back-end.
+                Meu nome é Gabriel Henrique de Matos Sena, sou estudante de Engenharia de Software no UniSenai, e <br />técnico em Desenvolvimento de Sistemas. Adquiri muitos conhecimentos na área do front-end, mas <br />também tendo um conhecimento em back-end.
               </p>
             </div>
             <div className='card-education'>
