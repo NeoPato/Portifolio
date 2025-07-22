@@ -288,6 +288,8 @@ section {
   .card-contact{
     margin-top: -10px;
     display: flex;
+    align-items: center;
+    text-align: center;
     flex-direction: column;
     justify-content: space-around;
   }
