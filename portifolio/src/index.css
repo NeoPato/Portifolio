@@ -286,6 +286,7 @@ section {
     padding: 20px;
   }
   .card-contact{
+    margin-top: -10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
