@@ -260,7 +260,8 @@ section {
 
 @media (max-width: 768px) {
   .header-content nav ul {
-    flex-direction: column;
+    flex-direction: row;
+    gap: 10px;
     align-items: center;
   }
   .contact {
