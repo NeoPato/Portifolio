@@ -44,7 +44,6 @@ section {
   display: flex;
   text-align: center;
   align-items: center;
-  justify-content: space-between;
   padding: 20px;
   background-color: transparent;
   justify-content: center;
@@ -61,6 +60,7 @@ section {
 
 .header-content {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
@@ -246,7 +246,10 @@ section {
 .card-list:hover {
   transform: scale(1.03);
   transition: transform 0.3s ease;
+}
 
+.card-list a{
+  color: #25D366;
 }
 
 /* Rodapé */

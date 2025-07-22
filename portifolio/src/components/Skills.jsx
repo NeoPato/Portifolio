@@ -46,11 +46,9 @@ export function Skills() {
           <div className='card-list'>
             <h2>Projetos</h2>
             <br />
-            <p>{text.Projeto}</p>
+            <p>{text.Projeto} <br /> <a href="" target='_black'>Clique para Acessar o Site</a></p>
             <br />
-            <p>{text.Projeto2}</p>
-            <br />
-            <p>{text.Projeto3}</p>
+            <p>{text.Projeto2} <br /> <a href="https://alferi-reserva-hoteis.vercel.app" target='_black'>Clique para Acessar o Site</a></p>
             <br />
           </div>
         </div>
