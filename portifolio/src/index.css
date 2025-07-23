@@ -162,8 +162,8 @@ section {
   border-radius:10cap;
 }
 .image img {
-  max-height: 350px;
-  max-width: 350px;
+  max-height: 400px;
+  max-width: 400px;
   width: 100vw;
   height: 100vh;
   object-fit: cover;
