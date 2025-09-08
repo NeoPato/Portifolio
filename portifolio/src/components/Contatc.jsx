@@ -13,12 +13,14 @@ export function Contatc() {
             
             <div className="card-identity">
               <h2>Sobre Mim</h2>
+              <h3>Gabriel Henrique de Matos Sena </h3><br />
               <p>
-                Gabriel Henrique de Matos Sena – Estudante de Engenharia de Software<br/><br />
-                Sou um estudante dedicado de Engenharia de Software, com sólida base em desenvolvimento de sistemas e aplicações web.<br/>  
-                Perfil: Motivado pela busca constante de aprendizado e prática em projetos, possuo perfil proativo, comunicativo e adaptável, sempre em evolução para aprimorar minhas habilidades técnicas e interpessoais.<br/>
-                Portfólio: Atualmente, desenvolvo e compartilho minhas habilidades no meu portfólio online.<br/>
-                Objetivo: Busco oportunidades para crescer profissionalmente na área de tecnologia, contribuindo com soluções criativas e eficientes.
+                Estudante de Engenharia de Software com experiência em Python, 
+                JavaScript, Node.js, React, HTML e CSS, e conhecimentos em Excel. 
+                Proativo e comunicativo, busco aprendizado constante e aplico minhas 
+                habilidades em projetos compartilhados no meu portfólio online. 
+                Procuro oportunidades para crescer profissionalmente, contribuindo com soluções 
+                criativas e eficientes em tecnologia.
               </p>
             </div>
             <div className='card-education'>
