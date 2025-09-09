@@ -229,6 +229,7 @@ section {
 }
 
 .icone-linguagens {
+  display: flex;
   border:double, #282828;
   align-items: center;
   text-align: center;
