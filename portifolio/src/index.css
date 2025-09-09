@@ -237,7 +237,7 @@ section {
   width: 60%;
   max-width: 100vw;
   background-color: #3a3a3a;
-  padding: 10px;
+  margin: 0;
   gap: 40px;
   transition: transform 0.3s ease;
 }
