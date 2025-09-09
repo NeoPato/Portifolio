@@ -36,16 +36,6 @@ export function Contatc() {
         ))}
         </div>
       </div>
-      {Dev.map((text, index) => (
-          <div key={index}>
-          <div className="card-contact">
-              <h4>Email: <br /><a href="https://mail.google.com/mail/?view=cm&fs=1&to=gabrielhmsena20@gmail.com" target="_blank">Enviar Email </a></h4>              
-              <h4>Telefone: <br /><a href="https://wa.me/+554184666011?text=Olá,%20gostaria%20de%20mais%20informações">Enviar Mensagem</a></h4>
-              <h4>GitHub: <br /><a href="https://github.com/NeoPato" target='_black'>Clique para Acessar</a></h4>
-              <h4>LinkedIn: <br /> <a href="https://www.linkedin.com/in/gabriel-henrique-985311294/" target='_blank'>Clique para Acessar</a></h4>
-            </div>
-          </div>
-        ))}
     </div>
   );
 }    

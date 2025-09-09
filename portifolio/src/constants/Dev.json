@@ -26,16 +26,15 @@
         "GitHub": "NeoPato",
         "LinkedIn": "gabriel-henrique-de-matos-sena-123456789",
         "Projeto": [
-            "Campo Minado",
-            " Um jogo clássico desenvolvido em Python. - ",
-            ["( Python,", " Pygame)"],
-            "..."
+            "Campo Minado ",
+            "um jogo clássico desenvolvido em Python."
         ],
         "Projeto2": [
-            "Projeto Final de Conclusão do Curso Técnico. - ",
-            ["( React,", " Html,", " CSS,", " JavaScript,", " Node.js,", " Prisma)"]
+            "Projeto Final de Conclusão do Curso Técnico."
         ],
-        "urlProjeto2": "https://...",
-        "urlProjeto1": "https://..."
+        "Projeto3": [
+            "Site informativo do projeto de jornada de aprendisadio (1º Período)"
+        ]
+
     }
 ]

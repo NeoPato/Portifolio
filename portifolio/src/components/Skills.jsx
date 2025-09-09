@@ -1,4 +1,9 @@
 import Dev from '../constants/Dev.json';
+import { FaHtml5,FaReact,FaCss3Alt,FaNodeJs,FaPython,FaFigma  } from "react-icons/fa";
+import { PiMicrosoftExcelLogoFill } from "react-icons/pi";
+import { IoLogoJavascript } from "react-icons/io5";
+
+
 
 export function Skills() {
   return (
@@ -6,36 +11,34 @@ export function Skills() {
       <div className="skills-content">
         <div className='card'>
           <div className='card-list'>
-            <h2>Linguagens</h2>
+            <h2>Linguagens e Ferramentas</h2>
             <br />
             <div className='group-linguagens'>
               <div className='icone-linguagens'>
-                <img src="/python.png" alt="" />
+                <FaPython size={50}/>
                 <p>Python</p>
-              </div>
+                </div>
               <div className='icone-linguagens'>
-                <img src="/js.png" alt="" />
+                <IoLogoJavascript size={50}/>
                 <p>JavaScript</p>
               </div>
-            </div>
-            <div className='group-linguagens'> 
               <div className='icone-linguagens'>
-                <img src="/nodejs.png" alt="" />
-                <p>Node.js</p>
-              </div>
-              <div className='icone-linguagens'>
-                <img src="/biblioteca.png" alt="" />
-                <p>React</p>
+                <FaHtml5 size={50}/>
+                <p>html</p>
               </div>
             </div>
             <div className='group-linguagens'>
               <div className='icone-linguagens'>
-                <img src="/html-5.png" alt="" />
-                <p>html</p>
+                <FaCss3Alt size={50}/>
+                <p>Css</p>
               </div>
               <div className='icone-linguagens'>
-                <img src="/css-3.png" alt="" />
-                <p>Css</p>
+                <PiMicrosoftExcelLogoFill size={50}/>
+                <p>Microsoft Excel</p>
+              </div>
+              <div className='icone-linguagens'>
+                <FaFigma size={50}/>
+                <p>Figma</p>
               </div>
             </div>
           </div>
@@ -49,6 +52,8 @@ export function Skills() {
             <p>{text.Projeto} <br /> <a href="" target='_black'>Clique para Acessar o Site</a></p>
             <br />
             <p>{text.Projeto2} <br /> <a href="https://alferi-reserva-hoteis.vercel.app" target='_black'>Clique para Acessar o Site</a></p>
+            <br />
+            <p>{text.Projeto3} <br /> <a href="https://projeto-baga-o-malte.vercel.app" target='_black'>Clique para Acessar o Site</a></p>
             <br />
           </div>
         </div>

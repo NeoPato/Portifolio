@@ -1,3 +1,4 @@
+import { FaWhatsapp } from "react-icons/fa";
 
 export function Header() {
 
@@ -9,10 +10,11 @@ export function Header() {
             <ul>
               <li><a href="#contact">Sobre</a></li>
               <li><a href="#skills">Habilidades</a></li>
+              <li><a href="#footer">Contato</a></li>
               <div className="header-button">
-                <img src="/whatsapp.png" alt="zapzapIcone" />
+                <FaWhatsapp size={30} color="white"/>
                 <a href="https://wa.me/+554184666011?text=Olá,%20gostaria%20de%20mais%20informações" target="_blank">
-                  <b><button>Contato</button></b>
+                  <b><button>WhatsApp</button></b>
                 </a>
               </div>
             </ul>
