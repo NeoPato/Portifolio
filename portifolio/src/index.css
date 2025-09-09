@@ -194,28 +194,34 @@ section {
   flex-direction: column;
   align-items: center;
   padding: 40px;
-  border-radius: 10px;
+  border-radius: 10cap;
   width: 100%;
 }
 
-.card-list1:hover,
-.card-list2:hover {
+.card-list1:hover, .card-list2:hover {
   transform: scale(1.03);
+  transition: transform 0.3s ease;
 }
 
 .skills-content {
   display: flex;
   align-items: center;
+  width: 90%;
+  max-width: 100vw;
   justify-content: space-between;
   gap: 50px;
-  width: 60%;
-  max-width: 100vw;
   color: white;
+}
+
+.card img{
+  width: 50px;
+  height: 50px;
+
 }
 
 .group-linguagens {
   display: inline-flex;
-  flex-direction: row;
+  flex-direction: row ; 
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
@@ -223,49 +229,44 @@ section {
 }
 
 .icone-linguagens {
-  display: flex;
+  border:double, #282828;
   align-items: center;
-  justify-content: center;
   text-align: center;
-  border: double 2px #282828;
-  border-radius: 8px;
+  justify-content: center;
+  border-radius: 1cap;
   width: 60%;
-  max-width: 100vw;
   background-color: #3a3a3a;
-  margin: 0;
+  padding: 10px;
   gap: 40px;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  transition: transform 0.3s ease;
 }
-
-.icone-linguagens:hover {
+.icone-linguagens:hover{
   transform: scale(1.05);
+  transition: transform 0.3s ease;
   background-color: #444444;
 }
 
-.card-list {
-  display: flex;
-  flex-direction: column;
+.card-list{
   align-items: center;
-  text-align: start;
   gap: 30px;
+  text-align:start;
   background-color: rgba(40, 40, 40, 0.7);
   width: 100%;
   max-width: 100vw;
-  border: double 2px #202020;
+  border:double, #202020;
   padding: 40px;
-  border-radius: 16px;
+  border-radius: 5cap;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
 }
-
 .card-list:hover {
   transform: scale(1.03);
+  transition: transform 0.3s ease;
 }
 
-.card-list a {
+.card-list a{
   color: #64b0e2fb;
 }
-
 
 /* Rodapé */
 .footer p,
