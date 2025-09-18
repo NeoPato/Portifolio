@@ -221,22 +221,25 @@ section {
 
 .group-linguagens {
   display: inline-flex;
-  flex-direction: row ; 
-  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  height: 25vw;
+  padding: 2cap;
+  gap: 15px;
+  height: auto;
 }
 
 .icone-linguagens {
   border:double, #282828;
   align-items: center;
   text-align: center;
+  flex-direction: column ; 
   justify-content: center;
   border-radius: 1cap;
   width: 60%;
   background-color: #3a3a3a;
-  padding: 10px;
+  padding: 1cap;
   gap: 40px;
   transition: transform 0.3s ease;
 }
@@ -268,7 +271,6 @@ section {
   color: #64b0e2fb;
 }
 
-/* Rodapé */
 .footer p,
 .footer a {
   color: white;
@@ -293,9 +295,9 @@ section {
 
 .footer .card-footer {
   display: flex;
-  justify-content: center;   /* centraliza os blocos */
+  justify-content: center;   
   align-items: center;
-  gap: 40px;                 /* espaço entre os blocos */
+  gap: 40px;                
   margin: 10px;
   flex-wrap: wrap;       
 }
