@@ -17,8 +17,7 @@ export function Contatc() {
               <p>
                 Estudante de Engenharia de Software com experiência em Python, 
                 JavaScript, Node.js, React, HTML e CSS, e conhecimentos em Excel. 
-                Proativo e comunicativo, busco aprendizado constante e aplico minhas 
-                habilidades em projetos compartilhados no meu portfólio online. 
+                Proativo e comunicativo, busco aprendizado constante e aplico minhas.
                 Procuro oportunidades para crescer profissionalmente, contribuindo com soluções 
                 criativas e eficientes em tecnologia.
               </p>
